@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/alexandermeade/Documents/Code/nasa_bplib/unittest'
-let g:netrw_dirhist_2='/Users/alexandermeade/Documents/Code/nasa_bplib/rb_tree'
-let g:netrw_dirhist_3='/Users/alexandermeade/Documents/Code/nasa_bplib/unittest'
-let g:netrw_dirhist_4='/Users/alexandermeade/Documents/Code/nasa_bplib/.git'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/ashley/notebooks'
+let g:netrw_dirhist_2='/home/ashley/notebooks/julia'
+let g:netrw_dirhist_3='/home/ashley/notebooks/ameade/ai_for_earth/data'
+let g:netrw_dirhist_4='/home/ashley/notebooks/ameade/ai_for_earth/logs'
+let g:netrw_dirhist_5='/home/ashley/notebooks/ameade/ai_for_earth'

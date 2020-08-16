@@ -11,171 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<assert\>
+~MSle0~/\vmutate
 
 # Last Substitute Search Pattern:
-~MSle0&$CRC_DIR
+~MSle0&50
 
 # Last Substitute String:
-$
+$200
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1595785965,,"w"
-:!ls unittest/
-|2,0,1595785957,,"!ls unittest/"
-:!ls
-|2,0,1595785952,,"!ls"
-:wq
-|2,0,1595788702,,"wq"
 :q!
-|2,0,1595788695,,"q!"
-:vsplit ut_crc.h
-|2,0,1595786051,,"vsplit ut_crc.h"
-:W
-|2,0,1595785746,,"W"
-:vsplit unittest/unittest.h
-|2,0,1595785679,,"vsplit unittest/unittest.h"
-:vim unittest/unittest
-|2,0,1595785675,,"vim unittest/unittest"
+|2,0,1597612161,,"q!"
+:wq
+|2,0,1597040330,,"wq"
+:w
+|2,0,1597040310,,"w"
+:vsplit evolver.py
+|2,0,1597039166,,"vsplit evolver.py"
+:vsplit unet.py
+|2,0,1597038510,,"vsplit unet.py"
+:vsplit dropout_finetuning.py
+|2,0,1597038492,,"vsplit dropout_finetuning.py"
 :Wq
-|2,0,1595785158,,"Wq"
-:vsplit unittest/unittest.c
-|2,0,1595785073,,"vsplit unittest/unittest.c"
-:!make main.o
-|2,0,1595784519,,"!make main.o"
-:	
-|2,0,1595784083,,"	"
-:%s/$CRC_DIR/crc/gc
-|2,0,1595783759,,"%s/$CRC_DIR/crc/gc"
-:%s/$TEST_DIR/unittest/gc
-|2,0,1595783748,,"%s/$TEST_DIR/unittest/gc"
-:%s/$RB_TREE_DIR/rb_tree/gc
-|2,0,1595783736,,"%s/$RB_TREE_DIR/rb_tree/gc"
-:%s/BP_/RB_/gc
-|2,0,1595781621,,"%s/BP_/RB_/gc"
-:%s/BP_LOCAL_SCOPE //gc
-|2,0,1595781542,,"%s/BP_LOCAL_SCOPE //gc"
-:%s/BP
-|2,0,1595781519,,"%s/BP"
-:%s/bplib_os_free/free/gc
-|2,0,1595781315,,"%s/bplib_os_free/free/gc"
-:%s/bplib_os_calloc/calloc/gc
-|2,0,1595781286,,"%s/bplib_os_calloc/calloc/gc"
-:vsplit rb_tree.c
-|2,0,1595781210,,"vsplit rb_tree.c"
-:24
-|2,0,1595781040,,"24"
-:%s/BP_SUCCESS/RB_SUCCESS/gc
-|2,0,1595780775,,"%s/BP_SUCCESS/RB_SUCCESS/gc"
-:%s/bp_val_t/int/gc
-|2,0,1595780716,,"%s/bp_val_t/int/gc"
-:!python exercise_notify.py
-|2,0,1592366035,,"!python exercise_notify.py"
-:!clear
-|2,0,1592364929,,"!clear"
+|2,0,1597038308,,"Wq"
+:104
+|2,0,1597036096,,"104"
+:python dro
+|2,0,1597035889,,"python dro"
+:nsmallest
+|2,0,1597035847,,"nsmallest"
+:168
+|2,0,1597029721,,"168"
+:vsplit dropout_finetuning.ipynb
+|2,0,1597029363,,"vsplit dropout_finetuning.ipynb"
+:44
+|2,0,1597026413,,"44"
+:W
+|2,0,1597024606,,"W"
+:234
+|2,0,1597024125,,"234"
+:vsplit backprop_finetuning.py
+|2,0,1597023684,,"vsplit backprop_finetuning.py"
+:vsplit training.py
+|2,0,1597023674,,"vsplit training.py"
+:/ITerable
+|2,0,1597022342,,"/ITerable"
+:'<,'>q!
+|2,0,1596596201,,"'<,'>q!"
+:213
+|2,0,1596511653,,"213"
+:vsplit data/landcover_large/dataset_config.csv
+|2,0,1596511422,,"vsplit data/landcover_large/dataset_config.csv"
+:/self.classes
+|2,0,1596511329,,"/self.classes"
+:vsplit landcover_dataloader.py
+|2,0,1596511238,,"vsplit landcover_dataloader.py"
+:211
+|2,0,1596510377,,"211"
+:201
+|2,0,1596510345,,"201"
+:203
+|2,0,1596510326,,"203"
+:o land
+|2,0,1596510206,,"o land"
+:51
+|2,0,1596509679,,"51"
+:52
+|2,0,1596509619,,"52"
+:337
+|2,0,1596509560,,"337"
+:vsplit dataset_utils.py
+|2,0,1596081566,,"vsplit dataset_utils.py"
+:%s/50/200/gc
+|2,0,1595966418,,"%s/50/200/gc"
+:307
+|2,0,1595899124,,"307"
+:vsplit models/unet.py
+|2,0,1595466643,,"vsplit models/unet.py"
+:qw
+|2,0,1595428362,,"qw"
+::w
+|2,0,1595296734,,":w"
 :q
-|2,0,1585261718,,"q"
-:23
-|2,0,1585261477,,"23"
-:!python problem_5.py
-|2,0,1580962389,,"!python problem_5.py"
-:!python3 detection.py
-|2,0,1579024485,,"!python3 detection.py"
-:121
-|2,0,1576070239,,"121"
-:48
-|2,0,1576070163,,"48"
-:108
-|2,0,1576070147,,"108"
-:107
-|2,0,1576070117,,"107"
-:89
-|2,0,1576069746,,"89"
-:82
-|2,0,1576069715,,"82"
-:71
-|2,0,1576069704,,"71"
+|2,0,1595179775,,"q"
+:63
+|2,0,1595179198,,"63"
+:34
+|2,0,1595179169,,"34"
+:o unet2.py
+|2,0,1595171012,,"o unet2.py"
+:o models/unet.py
+|2,0,1595169648,,"o models/unet.py"
 :42
-|2,0,1576069693,,"42"
-:List
-|2,0,1576044383,,"List"
-:57
-|2,0,1576042286,,"57"
-:43
-|2,0,1576040469,,"43"
-:!
-|2,0,1556167270,,"!"
-:wq!
-|2,0,1556167268,,"wq!"
-:49
-|2,0,1539058041,,"49"
+|2,0,1595167889,,"42"
+:wq:
+|2,0,1595104599,,"wq:"
+:48
+|2,0,1595104319,,"48"
+:39
+|2,0,1595104004,,"39"
+:30
+|2,0,1595103984,,"30"
+:171
+|2,0,1595103953,,"171"
+:w:
+|2,0,1595103787,,"w:"
+:298
+|2,0,1595103754,,"298"
+:45
+|2,0,1595103733,,"45"
 
 # Search String History (newest to oldest):
-? @$
-|2,1,1595788692,,"@$"
-? \<assert\>
-|2,1,1595785296,,"\\<assert\\>"
-? $CRC_DIR
-|2,1,1595783759,,"$CRC_DIR"
-? $TEST_DIR
-|2,1,1595783748,,"$TEST_DIR"
-? $RB_TREE_DIR
-|2,1,1595783736,,"$RB_TREE_DIR"
-? BP_
-|2,1,1595781621,,"BP_"
-? BP_LOCAL_SCOPE 
-|2,1,1595781542,,"BP_LOCAL_SCOPE "
-?/LOCAL
-|2,1,1595781528,47,"LOCAL"
-?/BP
-|2,1,1595781522,47,"BP"
-? BP
-|2,1,1595781519,,"BP"
-?/BP_LOCAL_SCOPE /
-|2,1,1595781515,47,"BP_LOCAL_SCOPE /"
-?/main
-|2,1,1595781428,47,"main"
-?/calloc
-|2,1,1595781408,47,"calloc"
-?/bplib
-|2,1,1595781321,47,"bplib"
-? bplib_os_free
-|2,1,1595781315,,"bplib_os_free"
-? bplib_os_calloc
-|2,1,1595781286,,"bplib_os_calloc"
-?/bp_
-|2,1,1595781251,47,"bp_"
-?/bp_range_t
-|2,1,1595781239,47,"bp_range_t"
-?/BLACK
-|2,1,1595780995,47,"BLACK"
-?/BP_
-|2,1,1595780889,47,"BP_"
-? BP_SUCCESS
-|2,1,1595780775,,"BP_SUCCESS"
-? bp_val_t
-|2,1,1595780716,,"bp_val_t"
-?/thompson
-|2,1,1576088174,47,"thompson"
-?/print
-|2,1,1576086357,47,"print"
-?/get_rewarad
-|2,1,1576086330,47,"get_rewarad"
-?/get_reward
-|2,1,1576070931,47,"get_reward"
-?/plot_li
-|2,1,1576070413,47,"plot_li"
-? \<plot_lineplot\>
-|2,1,1576070268,,"\\<plot_lineplot\\>"
-?/108
-|2,1,1576070145,47,"108"
-?/add_p
-|2,1,1576070132,47,"add_p"
-?/add-p
-|2,1,1576069654,47,"add-p"
-?/greedy
-|2,1,1576044273,47,"greedy"
+?/\vmutate
+|2,1,1597040320,47,"\\vmutate"
+?/\vchild
+|2,1,1597039874,47,"\\vchild"
+?/\vprint
+|2,1,1597039864,47,"\\vprint"
+?/\v_std
+|2,1,1597039746,47,"\\v_std"
+?/\vstd_
+|2,1,1597039742,47,"\\vstd_"
+?/\vnum_chil
+|2,1,1597039699,47,"\\vnum_chil"
+? \<mutate\>
+|2,1,1597039231,,"\\<mutate\\>"
+?/\vnon_zero
+|2,1,1597038516,47,"\\vnon_zero"
+?/\vevolver
+|2,1,1597038494,47,"\\vevolver"
+?/\vbinomial_pro
+|2,1,1597038368,47,"\\vbinomial_pro"
+?/\vPERCENTA
+|2,1,1597038302,47,"\\vPERCENTA"
+?/\vactivation_scal
+|2,1,1597037988,47,"\\vactivation_scal"
+?/\vsplit 
+|2,1,1597037965,47,"\\vsplit "
+?/\vparents
+|2,1,1597037866,47,"\\vparents"
+?/\stats
+|2,1,1597037847,47,"\\stats"
+?/\vnsmall
+|2,1,1597037731,47,"\\vnsmall"
+?/\vbest_ch
+|2,1,1597037581,47,"\\vbest_ch"
+?/\vdropoutfin
+|2,1,1597037528,47,"\\vdropoutfin"
+?/\vbinomial
+|2,1,1597037386,47,"\\vbinomial"
+?/\vn=
+|2,1,1597037383,47,"\\vn="
+?/\vbinomial(
+|2,1,1597037379,47,"\\vbinomial("
+?/\vnon_zer
+|2,1,1597037250,47,"\\vnon_zer"
+?/\vbinomia
+|2,1,1597037185,47,"\\vbinomia"
+?/\vONES
+|2,1,1597036884,47,"\\vONES"
+?/\vbest shape
+|2,1,1597036695,47,"\\vbest shape"
+?/\vbest shap
+|2,1,1597036681,47,"\\vbest shap"
+?/\vshape
+|2,1,1597036566,47,"\\vshape"
+?/shape
+|2,1,1597036556,47,"shape"
+?/\vbest_ch=
+|2,1,1597036492,47,"\\vbest_ch="
+?/\vbest
+|2,1,1597036427,47,"\\vbest"
+?/\child
+|2,1,1597036221,47,"\\child"
+?/\vnsmalles
+|2,1,1597036108,47,"\\vnsmalles"
+?/\vnsma
+|2,1,1597035851,47,"\\vnsma"
+?/\vnlargest
+|2,1,1597035724,47,"\\vnlargest"
+?/\vnlarg
+|2,1,1597035628,47,"\\vnlarg"
+?/\vnsmal
+|2,1,1597035573,47,"\\vnsmal"
+?/\vchild_dict
+|2,1,1597035522,47,"\\vchild_dict"
+?/\vinit_ch
+|2,1,1597035220,47,"\\vinit_ch"
+?/\vinit
+|2,1,1597035210,47,"\\vinit"
+?/\vDropoutFine
+|2,1,1597034916,47,"\\vDropoutFine"
+?/\vchild_heap
+|2,1,1597030263,47,"\\vchild_heap"
+?/\v1.0 /
+|2,1,1597030210,47,"\\v1.0 /"
+?/\vchildren
+|2,1,1597030190,47,"\\vchildren"
+?/\vget_generation_prio
+|2,1,1597030087,47,"\\vget_generation_prio"
+?/\vstd
+|2,1,1597030062,47,"\\vstd"
+?/\vget_genera
+|2,1,1597029885,47,"\\vget_genera"
+?/\vadd_chi
+|2,1,1597029374,47,"\\vadd_chi"
+?/\v_child_heap
+|2,1,1597029242,47,"\\v_child_heap"
+?/\vpriority
+|2,1,1597029172,47,"\\vpriority"
+?/\vstats
+|2,1,1597027713,47,"\\vstats"
 
 # Expression History (newest to oldest):
 
@@ -185,1032 +231,1623 @@ $
 
 # Registers:
 "0	CHAR	0
-	unittest/ut_assert.h
-|3,0,0,0,1,0,1595788692,"unittest/ut_assert.h"
+	 
+	    def get_best_child(self):
+	        """Gets the best performing child with the highest priority in the
+	        heap.
+	
+	        Returns:
+	            The heap entry for the best child in the generation.
+	
+	        """
+	        return self._child_dict[heapq.nsmallest(1, self._child_heap)[0][1]]
+	
+	
+|3,0,0,0,12,0,1597037736," ","    def get_best_child(self):","        \"\"\"Gets the best performing child with the highest priority in the","        heap.","","        Returns:","            The heap entry for the best child in the generation.","","        \"\"\"","        return self._child_dict[heapq.nsmallest(1, self._child_heap)[0][1]]","",""
 "1	LINE	0
-	extern int ut_rb_tree (void);
-|3,0,1,1,1,0,1595785690,"extern int ut_rb_tree (void);"
+	        print(engine.state.iteration)
+|3,0,1,1,1,0,1597039865,"        print(engine.state.iteration)"
 "2	LINE	0
-	extern int ut_crc (void);
-|3,0,2,1,1,0,1595785688,"extern int ut_crc (void);"
+	            print("PERCENTAGE ZERO", non_zero, self.mask.numel())
+|3,0,2,1,1,0,1597038306,"            print(\"PERCENTAGE ZERO\", non_zero, self.mask.numel())"
 "3	LINE	0
-	    printf("Complete!");
-|3,0,3,1,1,0,1595785651,"    printf(\"Complete!\");"
+	        self.activation_scaling = 0
+	        self.name = name
+	        # The size of x input provided to this layer. A single batch
+	        # must be run through the network for this to be populated.
+	        self.x_size = None
+	
+	    def set_mask(self, mask: torch.Tensor):
+	        if mask is not None:
+	            self.mask = mask
+	            non_zero = self.mask.nonzero().size(0)
+	            if non_zero == 0:
+	                self.avitivation_sclaing = 1.0
+|3,0,3,1,12,0,1597037993,"        self.activation_scaling = 0","        self.name = name","        # The size of x input provided to this layer. A single batch","        # must be run through the network for this to be populated.","        self.x_size = None","","    def set_mask(self, mask: torch.Tensor):","        if mask is not None:","            self.mask = mask","            non_zero = self.mask.nonzero().size(0)","            if non_zero == 0:",>48
+|<"                self.avitivation_sclaing = 1.0"
 "4	LINE	0
-	    printf("Testing...");
-|3,0,4,1,1,0,1595785650,"    printf(\"Testing...\");"
+	            print(x.size(), self.mask.size(), self.activation_scaling)
+|3,0,4,1,1,0,1597037973,"            print(x.size(), self.mask.size(), self.activation_scaling)"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1595785592,""
+	        print("EVALUATED", np.mean(priorities), np.std(priorities))
+|3,0,5,1,1,0,1597037956,"        print(\"EVALUATED\", np.mean(priorities), np.std(priorities))"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1595785111,""
+	            print("BEST")
+|3,0,6,1,1,0,1597037796,"            print(\"BEST\")"
 "7	LINE	0
-		cc -c main.c 
-|3,0,7,1,1,0,1595785109,"	cc -c main.c "
+	                print("NORMAL")
+|3,0,7,1,1,0,1597037794,"                print(\"NORMAL\")"
 "8	LINE	0
-	main: main.c unitest/unitest.h 
-|3,0,8,1,1,0,1595785109,"main: main.c unitest/unitest.h "
+	            print("PERCENTAGE ZERO", non_zero )
+|3,0,8,1,1,0,1597037253,"            print(\"PERCENTAGE ZERO\", non_zero )"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1595785088,""
+	            s   print(len(child_mask))
+|3,0,9,1,1,0,1597036708,"            s   print(len(child_mask))"
 ""-	CHAR	0
-	unittest/ut_assert.h
-|3,1,36,0,1,0,1595785769,"unittest/ut_assert.h"
+	2
+|3,1,36,0,1,0,1597039875,"2"
 
 # File marks:
-'0  13  49  ~/Documents/Code/nasa_bplib/makefile
-|4,48,13,49,1595796219,"~/Documents/Code/nasa_bplib/makefile"
-'1  1  2  ~/Documents/Code/nasa_bplib/.gitignore
-|4,49,1,2,1595788702,"~/Documents/Code/nasa_bplib/.gitignore"
-'2  1  0  ~/Documents/Code/nasa_bplib/.git
-|4,50,1,0,1595788695,"~/Documents/Code/nasa_bplib/.git"
-'3  1  0  ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-|4,51,1,0,1595788542,"~/Documents/Code/nasa_bplib/.git/MERGE_MSG"
-'4  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,52,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
-'5  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,53,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
-'6  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,54,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
-'7  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,55,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
-'8  10  34  ~/Documents/Code/nasa_bplib/makefile
-|4,56,10,34,1595785770,"~/Documents/Code/nasa_bplib/makefile"
-'9  10  34  ~/Documents/Code/nasa_bplib/makefile
-|4,57,10,34,1595785770,"~/Documents/Code/nasa_bplib/makefile"
+'0  206  64  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,48,206,64,1597040330,"~/notebooks/ameade/ai_for_earth/evolver.py"
+'1  206  63  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,49,206,63,1597040317,"~/notebooks/ameade/ai_for_earth/evolver.py"
+'2  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,50,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'3  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,51,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'4  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,52,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'5  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,53,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'6  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,54,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'7  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,55,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'8  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,56,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+'9  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,57,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
 
 # Jumplist (newest first):
--'  13  49  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,49,1595796219,"~/Documents/Code/nasa_bplib/makefile"
--'  1  2  ~/Documents/Code/nasa_bplib/.gitignore
-|4,39,1,2,1595788702,"~/Documents/Code/nasa_bplib/.gitignore"
--'  1  0  ~/Documents/Code/nasa_bplib/.git
-|4,39,1,0,1595788695,"~/Documents/Code/nasa_bplib/.git"
--'  1  0  ~/Documents/Code/nasa_bplib/.git
-|4,39,1,0,1595788695,"~/Documents/Code/nasa_bplib/.git"
--'  8  0  ~/Documents/Code/nasa_bplib/.git
-|4,39,8,0,1595788693,"~/Documents/Code/nasa_bplib/.git"
--'  8  0  ~/Documents/Code/nasa_bplib/.git
-|4,39,8,0,1595788693,"~/Documents/Code/nasa_bplib/.git"
--'  1  0  ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-|4,39,1,0,1595788542,"~/Documents/Code/nasa_bplib/.git/MERGE_MSG"
--'  1  0  ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-|4,39,1,0,1595788542,"~/Documents/Code/nasa_bplib/.git/MERGE_MSG"
--'  1  0  ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-|4,39,1,0,1595788542,"~/Documents/Code/nasa_bplib/.git/MERGE_MSG"
--'  1  0  ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-|4,39,1,0,1595788542,"~/Documents/Code/nasa_bplib/.git/MERGE_MSG"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786089,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,1,0,1595786026,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  200  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,200,0,1595786022,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  17  0  ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-|4,39,17,0,1595786021,"~/Documents/Code/nasa_bplib/unittest/ut_crc.c"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/unittest/vim
-|4,39,1,0,1595786014,"~/Documents/Code/nasa_bplib/unittest/vim"
--'  1  0  ~/Documents/Code/nasa_bplib/makefile
-|4,39,1,0,1595785914,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
--'  13  31  ~/Documents/Code/nasa_bplib/makefile
-|4,39,13,31,1595785813,"~/Documents/Code/nasa_bplib/makefile"
+-'  206  64  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,206,64,1597040330,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  206  64  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,206,64,1597040330,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  109  20  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,109,20,1597040321,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  109  20  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,109,20,1597040321,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,1,0,1597040320,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,1,0,1597040320,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  206  63  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,206,63,1597040317,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  206  63  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,206,63,1597040317,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  109  20  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,109,20,1597040295,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  109  20  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,109,20,1597040295,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,1,0,1597040294,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/evolver.py
+|4,39,1,0,1597040294,"~/notebooks/ameade/ai_for_earth/evolver.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  21  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,21,1597039878,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039874,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  8  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,8,1597039866,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039864,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  169  27  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,169,27,1597039764,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039746,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  68  20  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,68,20,1597039707,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
+-'  1  0  ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+|4,39,1,0,1597039699,"~/notebooks/ameade/ai_for_earth/dropout_finetuning.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/Documents/Code/nasa_bplib/.gitignore
-	*	1595788702	0
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2
+> ~/notebooks/ameade/ai_for_earth/evolver.py
+	*	1597040330	0
+	"	206	64
+	^	206	65
+	.	206	64
+	+	260	47
+	+	284	56
+	+	283	42
+	+	284	64
+	+	283	24
+	+	280	44
+	+	284	54
+	+	280	53
+	+	280	0
+	+	280	28
+	+	279	0
+	+	278	7
+	+	279	0
+	+	242	33
+	+	242	0
+	+	244	0
+	+	242	23
+	+	243	0
+	+	242	0
+	+	280	0
+	+	16	0
+	+	19	12
+	+	31	35
+	+	44	0
+	+	159	44
+	+	160	11
+	+	164	0
+	+	163	47
+	+	48	0
+	+	49	22
+	+	217	47
+	+	229	0
+	+	218	16
+	+	218	45
+	+	219	35
+	+	241	24
+	+	239	41
+	+	241	24
+	+	162	13
+	+	162	25
+	+	162	12
+	+	21	0
+	+	20	11
+	+	162	11
+	+	162	12
+	+	170	0
+	+	165	58
+	+	50	0
+	+	166	27
+	+	150	0
+	+	150	62
+	+	150	0
+	+	150	78
+	+	150	76
+	+	141	52
+	+	142	0
+	+	146	58
+	+	147	12
+	+	150	0
+	+	151	0
+	+	129	0
+	+	130	4
+	+	140	0
+	+	139	43
+	+	139	0
+	+	139	71
+	+	139	7
+	+	139	68
+	+	139	13
+	+	139	0
+	+	139	23
+	+	139	11
+	+	140	45
+	+	139	0
+	+	140	0
+	+	139	14
+	+	22	0
+	+	21	15
+	+	32	29
+	+	43	41
+	+	51	0
+	+	230	12
+	+	231	15
+	+	233	10
+	+	220	42
+	+	165	12
+	+	168	48
+	+	165	44
+	+	170	7
+	+	169	12
+	+	170	72
+	+	172	0
+	+	170	77
+	+	171	25
+	+	170	41
+	+	171	20
+	+	284	0
+	+	293	60
+	+	32	42
+	+	206	64
 
-> ~/Documents/Code/nasa_bplib/.git/MERGE_MSG
-	*	1595788541	0
-	"	1	0
-
-> ~/Documents/Code/nasa_bplib/unittest/ut_crc.c
-	*	1595786088	0
-	"	1	0
-	.	23	0
-	+	23	0
-
-> ~/Documents/Code/nasa_bplib/unittest/ut_crc.h
-	*	1595786088	0
-	"	1	0
-
-> ~/Documents/Code/nasa_bplib/unittest/vim
-	*	1595786012	0
-	"	1	0
-
-> ~/Documents/Code/nasa_bplib/makefile
-	*	1595785965	0
-	"	13	49
-	^	13	50
-	.	13	49
-	+	4	0
-	+	4	15
-	+	4	8
-	+	4	22
-	+	1	20
-	+	4	15
-	+	1	52
-	+	18	0
-	+	4	15
-	+	4	13
+> ~/notebooks/ameade/ai_for_earth/dropout_finetuning.py
+	*	1597039877	0
+	"	68	21
+	^	68	22
+	.	68	21
 	+	1	0
-	+	4	12
-	+	17	4
-	+	4	0
-	+	13	3
-	+	17	39
-	+	3	0
-	+	2	45
-	+	10	2
-	+	17	29
-	+	2	25
-	+	1	19
-	+	10	45
-	+	13	49
+	+	68	22
+	+	136	48
+	+	159	70
+	+	158	18
+	+	159	8
+	+	158	65
+	+	160	37
+	+	159	73
+	+	135	39
+	+	161	60
+	+	164	35
+	+	165	56
+	+	166	41
+	+	161	7
+	+	163	7
+	+	161	58
+	+	162	54
+	+	167	7
+	+	139	0
+	+	68	20
+	+	140	48
+	+	137	37
+	+	140	0
+	+	137	0
+	+	119	27
+	+	139	24
+	+	131	0
+	+	139	0
+	+	169	0
+	+	119	72
+	+	68	20
+	+	169	0
+	+	68	21
 
-> ~/Documents/Code/nasa_bplib/ma
-	*	1595785754	0
-	"	1	0
-
-> ~/Documents/Code/nasa_bplib/unittest/unittest.c
-	*	1595785749	0
-	"	26	0
-	^	26	0
-	.	25	23
-	+	24	0
-	+	31	0
-	+	59	0
+> ~/notebooks/ameade/ai_for_earth/unet.py
+	*	1597038526	0
+	"	181	12
+	.	182	0
+	+	48	8
+	+	48	0
+	+	75	35
+	+	78	40
+	+	75	23
+	+	100	36
+	+	101	32
+	+	102	31
+	+	101	29
+	+	100	33
+	+	48	78
+	+	47	0
+	+	48	78
+	+	48	97
+	+	48	102
+	+	48	78
+	+	48	0
+	+	48	54
+	+	48	63
+	+	48	100
+	+	48	99
+	+	48	0
+	+	48	77
+	+	48	0
+	+	75	0
+	+	75	18
+	+	244	35
+	+	245	47
+	+	243	24
+	+	245	45
+	+	75	4
+	+	79	43
+	+	157	55
+	+	151	39
+	+	157	43
+	+	48	0
+	+	36	0
+	+	48	0
+	+	47	0
+	+	43	0
+	+	38	3
+	+	47	0
+	+	42	0
+	+	57	0
+	+	52	0
+	+	75	0
+	+	68	13
+	+	69	29
+	+	70	0
+	+	78	39
+	+	243	24
+	+	245	45
+	+	246	0
+	+	245	47
 	+	60	0
-	+	60	28
-	+	60	0
-	+	62	24
-	+	64	23
-	+	22	18
 	+	62	0
-	+	64	0
-	+	31	0
-	+	25	23
+	+	61	4
+	+	60	0
+	+	243	0
+	+	244	0
+	+	68	0
+	+	75	0
+	+	79	0
+	+	81	0
+	+	80	0
+	+	6	32
+	+	113	47
+	+	6	24
+	+	185	54
+	+	188	49
+	+	188	56
+	+	185	0
+	+	184	0
+	+	188	12
+	+	188	74
+	+	184	0
+	+	194	0
+	+	104	0
+	+	194	0
+	+	184	15
+	+	189	0
+	+	188	73
+	+	189	41
+	+	188	73
+	+	185	65
+	+	189	0
+	+	185	0
+	+	187	0
+	+	184	0
+	+	186	0
+	+	187	11
+	+	188	15
+	+	187	16
+	+	188	16
+	+	184	45
+	+	195	0
+	+	172	0
+	+	173	0
+	+	172	36
+	+	182	0
 
-> ~/Documents/Code/nasa_bplib/unittest/unittest.h
-	*	1595785707	0
-	"	27	0
-	^	27	25
-	.	26	0
-	+	27	24
-	+	26	0
-
-> ~/Documents/Code/nasa_bplib/unittest/ut_rb_tree.c
-	*	1595785615	0
-	"	1463	19
-	^	1463	20
-	.	1463	19
-	+	26	0
-	+	1438	0
-	+	1463	19
-
-> ~/Documents/Code/nasa_bplib/main.c
-	*	1595785092	0
+> ~/notebooks/ameade/ai_for_earth/dropout_finetuning.ipynb
+	*	1597029363	0
 	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/dropout_finetuning.
+	*	1597028561	0
+	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/training.py
+	*	1597024485	0
+	"	11	0
+	^	36	20
+	.	36	19
+	+	144	16
+	+	75	5
+	+	81	22
+	+	86	0
+	+	76	0
+	+	77	8
+	+	78	8
+	+	78	77
+	+	82	7
+	+	90	66
+	+	91	76
+	+	71	27
+	+	72	28
+	+	72	84
+	+	60	0
+	+	72	56
+	+	72	55
+	+	30	49
+	+	28	27
+	+	29	51
+	+	28	11
+	+	29	58
+	+	30	54
+	+	31	0
+	+	28	30
+	+	55	20
+	+	28	30
+	+	55	19
+	+	44	65
+	+	34	19
+	+	36	19
+
+> ~/notebooks/ameade/ai_for_earth/backprop_finetuning.py
+	*	1597024483	0
+	"	3	0
+	^	100	1
+	.	100	0
+	+	1	8
+	+	1	9
+	+	114	0
+	+	100	0
+
+> ~/notebooks/ameade/ai_for_earth/train_fine.py
+	*	1596513363	0
+	"	144	0
+
+> ~/notebooks/ameade/ai_for_earth/data/landcover_large/dataset_config.csv
+	*	1596512101	0
+	"	2	11
 	.	2	0
+	+	9	10
+	+	11	9
+	+	13	10
+	+	15	10
+	+	13	9
+	+	15	8
+	+	1	18
+	+	6	12
+	+	7	12
+	+	6	0
+	+	7	0
+	+	1	12
+	+	6	12
+	+	7	12
 	+	1	0
-	+	1	15
+	+	6	13
+	+	7	0
+	+	6	12
+	+	7	12
+	+	5	12
+	+	4	12
+	+	3	12
+	+	2	12
 	+	2	0
 
-> ~/Documents/Code/nasa_bplib/make
-	*	1595783956	0
-	"	19	3
-	^	19	4
-	.	19	3
-	+	1	7
-	+	23	6
-	+	21	4
-	+	22	0
-	+	23	0
-	+	22	0
-	+	23	0
-	+	1	0
-	+	21	0
-	+	9	36
-	+	1	14
-	+	9	55
+> ~/notebooks/ameade/ai_for_earth/landcover_dataloader.py
+	*	1596511660	0
+	"	213	56
+	^	213	57
+	.	213	56
+	+	363	68
+	+	8	0
+	+	2	0
+	+	4	30
+	+	6	20
+	+	374	13
+	+	373	3
+	+	363	32
+	+	373	14
+	+	363	56
+	+	364	7
+	+	371	3
+	+	370	0
+	+	365	15
+	+	373	19
+	+	363	68
+	+	162	0
+	+	173	0
+	+	172	53
+	+	173	0
+	+	358	30
+	+	359	0
+	+	188	0
+	+	202	24
+	+	172	24
+	+	177	12
+	+	173	73
+	+	175	77
+	+	176	18
+	+	175	45
+	+	176	15
+	+	189	32
+	+	202	75
+	+	203	30
+	+	203	0
+	+	202	75
+	+	213	0
+	+	212	41
+	+	213	71
+	+	216	79
+	+	217	0
+	+	211	56
+	+	198	41
+	+	201	62
+	+	199	39
+	+	201	53
+	+	202	0
+	+	220	32
+	+	222	31
+	+	227	0
+	+	199	40
+	+	201	59
+	+	226	62
+	+	20	33
+	+	21	75
+	+	20	35
+	+	199	41
+	+	216	60
+	+	221	59
+	+	213	104
 	+	6	0
-	+	9	33
-	+	20	0
-	+	1	21
-	+	1	0
-	+	12	80
-	+	15	48
-	+	9	75
-	+	12	72
-	+	1	0
-	+	3	21
-	+	3	42
-	+	6	47
-	+	9	55
-	+	12	86
-	+	18	62
-	+	15	5
-	+	12	7
-	+	1	0
-	+	1	11
-	+	1	0
-	+	6	0
-	+	12	0
+	+	20	40
+	+	198	38
+	+	201	44
+	+	210	0
+	+	52	8
+	+	52	0
+	+	51	0
+	+	216	0
+	+	215	0
+	+	340	0
+	+	129	21
+	+	173	22
+	+	190	37
+	+	193	43
+	+	195	44
+	+	196	43
+	+	219	54
+	+	190	0
+	+	193	0
+	+	192	0
+	+	196	0
+	+	194	0
+	+	213	0
+	+	215	0
+	+	215	69
+	+	215	52
+	+	198	38
+	+	203	54
+	+	203	0
+	+	211	66
+	+	215	0
+	+	219	0
+	+	213	75
+	+	213	107
+	+	211	70
+	+	211	0
+	+	213	84
+	+	214	0
+	+	213	56
+
+> ~/notebooks/ameade/ai_for_earth/dataset_utils.py
+	*	1596081580	0
+	"	96	4
+
+> ~/notebooks/ameade/ai_for_earth/data/landcover_small/dataset_config.csv
+	*	1596081550	0
+	"	3	12
+	^	11	8
+	.	3	12
+	+	4	10
+	+	5	8
+	+	7	10
+	+	9	9
+	+	11	7
+	+	5	10
+	+	7	10
+	+	9	9
+	+	11	10
+	+	9	10
+	+	11	7
+	+	9	7
+	+	11	8
+	+	5	8
+	+	7	8
+	+	9	8
+	+	11	8
+	+	5	0
+	+	7	0
 	+	9	0
-	+	1	10
-	+	3	6
-	+	6	8
-	+	9	5
-	+	12	8
-	+	15	6
-	+	18	5
-	+	4	3
+	+	11	0
+	+	2	12
+	+	3	12
+
+> ~/notebooks/ameade/ai_for_earth/cuda_utils.py
+	*	1595966369	0
+	"	2	0
+	^	21	11
+	.	21	10
+	+	21	31
+	+	1	12
+	+	2	35
+	+	10	12
+	+	8	12
+	+	10	0
+	+	3	0
+	+	5	27
+	+	4	23
+	+	5	37
 	+	7	3
-	+	10	3
-	+	13	3
-	+	16	3
-	+	19	3
+	+	8	3
+	+	8	0
+	+	4	0
+	+	5	15
+	+	6	62
+	+	10	44
+	+	15	6
+	+	21	10
 
-> ~/Documents/Code/nasa_bplib/unittest/ut_assert.c
-	*	1595783125	0
-	"	93	0
-
-> ~/Documents/Code/nasa_bplib/unittest/ut_assert.h
-	*	1595781861	0
-	"	32	0
-
-> ~/Documents/Code/nasa_bplib/unittest/ut_assert.
-	*	1595781852	0
+> ~/notebooks/ameade/ai_for_earth/logs/landcover_small_training/events.out.tfevents.1595948664.ashley-alec-vm.93063.0
+	*	1595964573	0
 	"	1	0
 
-> ~/Documents/Code/nasa_bplib/unittest/unittest.
-	*	1595781732	0
+> ~/notebooks/ameade/ai_for_earth/no
+	*	1595948261	0
 	"	1	0
 
-> ~/Documents/Code/nasa_bplib/crc/crc.c
-	*	1595781645	0
+> ~/notebooks/ameade/ai_for_earth/finetuning.py
+	*	1595900381	0
+	"	56	83
+	^	56	84
+	.	56	83
+	+	56	83
+
+> ~/notebooks/ameade/ai_for_earth/models/unet.py
+	*	1595466654	0
+	"	193	0
+	^	77	26
+	.	77	25
+	+	64	33
+	+	66	71
+	+	75	83
+	+	74	22
+	+	42	0
+	+	43	19
+	+	44	27
+	+	44	38
+	+	39	8
+	+	40	43
+	+	40	42
+	+	51	56
+	+	51	45
+	+	52	50
+	+	54	75
+	+	55	54
+	+	63	52
+	+	63	35
+	+	34	28
+	+	51	45
+	+	52	0
+	+	39	8
+	+	39	4
+	+	41	0
+	+	40	54
+	+	44	53
+	+	51	0
+	+	55	72
+	+	51	38
+	+	50	102
+	+	63	0
+	+	63	59
+	+	64	47
+	+	66	139
+	+	63	26
+	+	75	0
+	+	75	73
+	+	76	43
+	+	73	56
+	+	73	24
+	+	63	55
+	+	40	57
+	+	44	47
+	+	34	41
+	+	51	72
+	+	55	67
+	+	51	68
+	+	63	0
+	+	66	131
+	+	73	56
+	+	76	34
+	+	63	64
+	+	102	31
+	+	5	20
+	+	6	22
+	+	34	39
+	+	63	66
+	+	66	70
+	+	66	133
+	+	163	0
+	+	161	48
+	+	64	34
+	+	66	71
+	+	67	54
+	+	92	0
+	+	93	25
+	+	94	15
+	+	95	15
+	+	99	0
+	+	94	0
+	+	97	34
+	+	94	41
+	+	111	42
+	+	170	27
+	+	174	15
+	+	177	0
+	+	176	42
+	+	182	28
+	+	182	0
+	+	159	0
+	+	170	4
+	+	173	12
+	+	172	25
+	+	161	0
+	+	76	0
+	+	29	37
+	+	22	11
+	+	78	0
+	+	100	8
+	+	100	42
+	+	22	0
+	+	29	0
+	+	28	37
+	+	76	31
+	+	78	0
+	+	100	14
+	+	29	0
+	+	76	37
+	+	77	25
+
+> ~/notebooks/ameade/ai_for_earth/ev
+	*	1595466614	0
+	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/metrics.py
+	*	1595464635	0
+	"	12	0
+	^	19	24
+	.	19	23
+	+	19	23
+
+> ~/notebooks/ameade/ai_for_earth/.gitignore
+	*	1595217685	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	1	4
+	+	2	4
+	+	3	5
+
+> ~/notebooks/ameade/ai_for_earth/models/unet2.py
+	*	1595174296	0
+	"	92	0
+	.	56	0
+	+	86	0
+	+	97	0
+	+	137	0
+	+	122	7
+	+	137	0
+	+	41	59
+	+	41	52
+	+	45	8
+	+	46	8
+	+	50	0
+	+	50	8
+	+	41	60
+	+	50	0
+	+	75	0
+	+	76	0
+	+	75	12
+	+	76	12
+	+	79	12
+	+	80	12
+	+	73	12
+	+	71	37
+	+	72	38
+	+	71	12
+	+	73	0
+	+	97	0
+	+	87	12
+	+	97	0
+	+	89	11
+	+	97	0
+	+	81	0
+	+	41	76
+	+	41	52
+	+	41	77
+	+	41	72
+	+	41	52
+	+	42	23
+	+	45	16
+	+	46	16
+	+	50	16
+	+	68	18
+	+	42	67
+	+	34	76
+	+	37	57
+	+	36	46
+	+	37	27
+	+	37	44
+	+	41	30
+	+	31	21
+	+	41	52
+	+	35	26
+	+	41	40
+	+	40	47
+	+	41	51
+	+	42	0
+	+	42	22
+	+	45	22
+	+	46	22
+	+	43	36
+	+	46	57
+	+	50	0
+	+	42	67
+	+	43	62
+	+	45	0
+	+	48	26
+	+	34	0
+	+	45	50
+	+	46	77
+	+	45	51
+	+	42	0
+	+	44	23
+	+	45	3
+	+	47	16
+	+	48	12
+	+	65	0
+	+	31	13
+	+	28	39
+	+	28	38
+	+	29	57
+	+	31	0
+	+	29	26
+	+	30	0
+	+	137	4
+	+	139	33
+	+	49	17
+	+	51	42
+	+	55	12
+	+	52	42
+	+	54	33
+	+	51	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	32	0
+	+	56	0
+
+> ~/notebooks/ameade/ai_for_earth/models/unet
+	*	1595171589	0
+	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/models/unet2
+	*	1595169765	0
+	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/dataset_generation/landcover_dataloader.py
+	*	1595104599	0
+	"	167	4
+	^	68	33
+	.	68	32
+	+	257	63
+	+	257	111
+	+	32	11
+	+	26	0
+	+	22	41
+	+	22	40
+	+	26	0
+	+	22	41
+	+	32	0
+	+	26	0
+	+	22	41
+	+	23	7
+	+	271	58
+	+	257	63
+	+	257	62
+	+	296	17
+	+	297	29
+	+	296	77
+	+	297	41
+	+	298	67
+	+	237	4
+	+	9	0
+	+	8	35
+	+	241	56
+	+	256	50
+	+	297	15
+	+	214	12
+	+	97	40
+	+	99	44
+	+	224	41
+	+	98	9
+	+	100	9
+	+	6	0
+	+	103	25
+	+	110	36
+	+	108	13
+	+	130	38
+	+	138	44
+	+	139	45
+	+	140	45
+	+	141	72
+	+	147	42
+	+	159	40
+	+	160	41
+	+	169	36
+	+	150	0
+	+	150	63
+	+	132	19
+	+	136	22
+	+	138	39
+	+	146	39
+	+	147	39
+	+	150	12
+	+	149	22
+	+	150	0
+	+	152	0
+	+	149	47
+	+	150	23
+	+	147	75
+	+	150	0
+	+	152	23
+	+	141	74
+	+	147	52
+	+	152	0
+	+	151	0
+	+	169	0
+	+	298	49
+	+	22	75
+	+	30	30
+	+	240	29
+	+	30	104
+	+	36	22
+	+	170	59
+	+	30	45
+	+	30	74
+	+	39	27
+	+	38	37
+	+	42	34
+	+	47	54
+	+	69	59
+	+	68	59
+	+	40	25
+	+	37	48
+	+	40	0
+	+	37	47
+	+	38	41
+	+	37	33
+	+	40	0
+	+	16	19
+	+	17	19
+	+	48	16
+	+	35	8
+	+	40	16
+	+	46	20
+	+	56	8
+	+	56	34
+	+	69	32
+	+	68	32
+	n	28	36
+
+> ~/notebooks/ameade/ai_for_earth/data/dataset_1/dataset_config.csv
+	*	1595104546	0
+	"	8	0
+	^	11	5
+	.	2	0
+	+	6	0
+	+	7	0
+	+	6	14
+	+	7	14
+	+	6	14
+	+	7	14
+	+	6	14
+	+	7	12
+	+	6	13
+	+	5	13
+	+	4	13
+	+	3	13
+	+	2	10
+	+	3	10
+	+	4	10
+	+	5	10
+	+	6	9
+	+	5	9
+	+	2	2
+	+	8	3
+	+	9	4
+	+	10	4
+	+	11	4
+	+	2	0
+
+> ~/notebooks/ameade/ai_for_earth/dataset_generation/dataset_utils.py
+	*	1595104543	0
+	"	40	35
+	^	40	36
+	.	40	35
+	+	40	8
+	+	40	23
+	+	43	23
+	+	46	23
+	+	49	23
+	+	10	13
+	+	11	18
+	+	12	18
+	+	13	21
+	+	12	33
+	+	11	33
+	+	10	23
+	+	13	24
+	+	12	36
+	+	11	36
+	+	10	26
+	+	46	12
+	+	49	12
+	+	43	12
+	+	39	12
+	+	40	12
+	+	39	12
+	+	53	39
+	+	2	10
+	+	9	0
+	+	15	17
+	+	13	21
+	+	12	33
+	+	11	33
+	+	10	23
+	+	90	0
+	+	91	0
+	+	91	14
+	+	98	6
+	+	91	28
+	+	96	16
+	+	91	23
+	+	99	29
+	+	100	29
+	+	101	20
+	+	94	0
+	+	93	17
+	+	97	0
+	+	19	0
+	+	14	0
+	+	54	0
+	+	15	0
+	+	13	13
+	+	12	20
+	+	11	19
+	+	10	14
+	+	15	60
+	+	40	33
+	+	43	39
+	+	46	39
+	+	49	33
+	+	58	79
+	+	15	0
+	+	22	14
+	+	29	16
+	+	40	28
+	+	43	28
+	+	46	28
+	+	49	16
+	+	46	16
+	+	43	16
+	+	42	18
+	+	45	17
+	+	48	17
+	+	18	22
+	+	13	8
+	+	12	8
+	+	11	9
+	+	10	8
+	+	29	58
+	+	53	49
+	+	29	22
+	+	40	14
+	+	43	15
+	+	46	13
+	+	49	13
+	+	53	0
+	+	33	0
+	+	29	23
+	+	33	61
+	+	37	0
+	+	30	43
+	+	29	21
+	+	30	51
+	+	36	11
+	+	39	37
+	+	42	35
+	+	45	36
+	+	48	35
+	+	63	4
+	+	6	20
+	+	4	0
+	+	6	0
+	+	45	22
+	+	40	35
+
+> ~/notebooks/ameade/ai_for_earth/data/dataset_1/partition_cfg.csv
+	*	1595094448	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	1	43
+	+	1	23
+	+	1	39
+	+	1	17
+	+	1	200
+	+	1	12
+	+	1	0
+	+	1	202
+	+	3	12
+	+	4	98
+	+	4	16
+	+	4	0
+	+	6	0
+	+	5	9
+	+	1	11
+	+	1	99
+	+	3	0
+	+	1	37
+	+	3	11
+	+	4	15
+	+	5	5
+	+	5	98
+	+	4	103
+	+	3	104
+	+	3	42
+	+	4	41
+	+	5	21
+	+	4	26
+	+	6	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	1	18
+
+> ~/notebooks/ameade/ai_for_earth/dataset_generation/landcover_data_loader.py
+	*	1594702154	0
+	"	70	24
+	^	70	33
+	.	70	24
+	+	71	0
+	+	70	24
+
+> ~/notebooks/ameade/ai_for_earth/data/train_tiles.csv
+	*	1594700002	0
+	"	1	0
+	.	3	0
+	+	3	68
+	+	1	103
+	+	3	0
+	+	1	103
+	+	1	193
+	+	1	0
+	+	3	0
+	+	2	79
+	+	2	0
+	+	2	103
+	+	3	0
+
+> ~/notebooks/ameade/ai_for_earth/landcover_data_loader.py
+	*	1594699766	0
+	"	113	0
+	^	1	0
+	.	1	0
+	+	68	24
+	+	8	0
+	+	69	0
+	+	70	0
+	+	6	0
+	+	5	0
+	+	2	8
+	+	1	0
+
+> ~/notebooks/ameade/ai_for_earth/matr
+	*	1594611271	0
+	"	1	0
+
+> ~/mount_remotes_all.sh
+	*	1594479775	0
+	"	1	0
+
+> ~/notebooks/ameade/ai_for_earth/experiments/evolver.py
+	*	1593573891	0
+	"	211	28
+	^	32	29
+	.	32	29
+	+	258	0
+	+	258	30
+	+	258	22
+	+	258	6
+	+	258	3
+	+	258	0
+	+	258	7
+	+	258	25
+	+	258	29
+	+	258	27
+	+	11	72
+	+	13	31
+	+	258	0
+	+	258	29
+	+	210	0
+	+	209	66
+	+	224	35
+	+	258	8
+	+	258	52
+	+	245	48
+	+	258	0
+	+	33	0
+	+	22	8
+	+	27	7
+	+	23	62
+	+	29	0
+	+	32	4
+	+	15	5
+	+	15	0
+	+	19	0
+	+	15	0
+	+	14	68
+	+	17	15
+	+	21	0
+	+	18	44
+	+	23	40
+	+	26	67
+	+	44	0
+	+	33	71
+	+	36	20
+	+	7	23
+	+	32	50
+	+	38	75
+	+	39	31
+	+	36	39
+	+	46	42
+	+	60	43
+	+	63	0
+	+	32	64
+	+	43	0
+	+	65	78
+	+	66	0
+	+	69	11
+	+	64	31
+	+	8	18
+	+	8	19
+	+	8	0
+	+	8	1
+	+	8	0
+	+	11	0
+	+	29	0
+	+	30	4
+	+	31	79
+	+	31	114
+	+	32	0
+	+	11	0
+	+	9	0
+	+	54	0
+	+	53	48
+	+	59	49
+	+	68	69
+	+	76	38
+	+	79	62
+	+	85	23
+	+	107	23
+	+	93	10
+	+	92	27
+	+	94	19
+	+	98	8
+	+	92	53
+	+	7	29
+	+	117	0
+	+	128	13
+	+	134	70
+	+	138	79
+	+	138	55
+	+	138	66
+	+	139	17
+	+	134	16
+	+	135	15
+	+	163	26
+	+	7	19
+	+	31	39
+	+	31	67
+	+	32	29
+	i	182	11
+
+> ~/notebooks/ameade/ai_for_earth/experiments/evolutionary_dropout.py
+	*	1593374911	0
 	"	30	7
 	^	30	8
-	.	30	7
-	+	23	0
-	+	77	0
-	+	92	0
-	+	25	0
-	+	26	7
-	+	29	12
-	+	30	12
-	+	233	0
-	+	29	18
-	+	30	7
-
-> ~/Documents/Code/nasa_bplib/crc/crc.h
-	*	1595781570	0
-	"	27	19
-	^	27	20
-	.	27	19
-	+	26	18
-	+	27	19
-
-> ~/Documents/Code/nasa_bplib/rb_tree/rb_tree.c
-	*	1595781431	0
-	"	1375	0
-	^	1146	52
-	.	1146	51
-	+	23	0
-	+	34	30
-	+	23	19
-	+	24	0
-	+	23	0
-	+	23	18
-	+	351	0
-	+	39	20
-	+	829	0
-	+	41	19
-	+	40	17
-	+	42	17
-	+	55	0
-	+	805	0
-	+	38	40
-	+	23	0
-	+	1383	33
-	+	1146	0
-	+	1339	0
-	+	33	35
-	+	34	43
-	+	1146	51
-
-> ~/Documents/Code/nasa_bplib/rb_tree/rb_tree.h
-	*	1595781218	0
-	"	28	0
-	^	29	19
-	.	28	0
-	+	26	0
-	+	74	2
-	+	37	0
-	+	57	13
-	+	56	16
-	+	26	19
-	+	27	18
-	+	29	18
-	+	28	0
-
-> ~/Documents/Code/nasa_bplib/rb_tree/rb_tree.
-	*	1595780299	0
-	"	1	0
-
-> ~/Documents/Misc/Health/exercise_notify.py
-	*	1592366085	0
-	"	35	23
-	^	35	24
-	.	35	24
-	+	7	65
-	+	14	25
-	+	15	135
-	+	17	0
-	+	33	23
-	+	2	26
-	+	2	27
-	+	2	3
-	+	2	48
-	+	17	27
-	+	17	66
-	+	2	14
-	+	37	11
-	+	43	14
-	+	34	7
-	+	43	29
-	+	48	3
-	+	17	0
-	+	22	11
-	+	22	62
-	+	22	0
-	+	28	0
-	+	23	48
-	+	24	35
-	+	26	36
-	+	25	43
-	+	24	59
-	+	25	74
-	+	24	37
-	+	25	27
-	+	26	25
-	+	27	27
-	+	22	8
-	+	2	40
-	+	3	24
-	+	17	0
-	+	31	28
-	+	32	0
-	+	38	39
-	+	31	6
-	+	41	18
-	+	42	25
-	+	47	3
-	+	46	7
-	+	43	97
-	+	45	30
-	+	34	3
-	+	35	21
-	+	45	87
-	+	48	0
-	+	22	0
-	+	41	35
-	+	12	32
-	+	13	51
-	+	23	60
-	+	24	95
-	+	25	73
-	+	26	54
-	+	27	56
-	+	25	111
-	+	34	0
-	+	35	18
-	+	43	37
-	+	33	22
-	+	43	66
-	+	33	18
-	+	30	66
-	+	13	0
-	+	11	0
-	+	30	39
-	+	27	37
-	+	26	35
-	+	25	37
-	+	24	47
-	+	23	41
-	+	30	63
-	+	45	35
-	+	1	29
-	+	17	0
-	+	20	25
-	+	45	0
-	+	18	40
-	+	19	40
-	+	44	68
-	+	5	0
-	+	7	62
-	+	34	14
-	+	35	12
-	+	34	14
-	+	35	12
-	+	34	25
-	+	35	23
-	+	4	10
-	+	34	26
-	+	35	23
-	+	34	26
-	+	39	22
-	+	34	25
-	+	30	73
-	+	35	24
-
-> ~/Documents/Kaggle/datasets/cs242_final/dataset-metadata.json
-	*	1587964837	0
-	"	1	0
-	^	3	25
-	.	3	24
-	+	2	32
-	+	3	29
-	+	2	23
-	+	3	24
-
-> ~/Documents/School/Harvard/2020_Spring/Computing at Scale/cs242_final_alec_daniel/data_utils.py
-	*	1587856929	0
-	"	1	0
-
-> ~/Documents/School/Harvard/2020_Spring/Computing at Scale/cs242_final_alec_daniel/README.md
-	*	1587855269	0
-	"	10	54
-	^	10	55
-	.	10	55
-	+	2	17
-	+	4	108
-	+	2	0
-	+	3	2
-	+	4	0
-	+	3	1
-	+	6	31
-	+	7	94
-	+	8	0
-	+	12	0
-	+	11	31
-	+	10	55
-
-> ~/Desktop/fib.py
-	*	1585262340	0
-	"	4	0
-	^	2	33
-	.	2	32
-	+	7	20
-	+	8	23
-	+	4	0
-	+	4	13
-	+	6	0
-	+	7	8
-	+	8	9
-	+	7	26
-	+	8	30
-	+	7	24
-	+	8	28
-	+	4	25
-	+	4	16
-	+	1	45
-	+	6	17
-	+	4	19
-	+	4	20
-	+	2	0
-	+	2	32
-	+	2	61
-	+	2	36
-	+	2	71
-	+	2	59
-	+	2	34
-	+	2	61
-	+	2	16
-	+	8	4
-	+	2	30
-	+	7	24
-	+	8	0
-	+	10	21
-	+	9	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	7	24
-	+	2	4
-	+	2	37
-	+	2	0
-	+	2	33
-	+	4	0
-	+	2	14
-	+	2	32
-
-> ~/Documents/School/Harvard/2020_Spring/Fundamental of Machine Learning/Diagnostic/problem_5.py
-	*	1580989855	0
-	"	17	0
-	^	14	38
-	.	14	37
-	+	3	22
-	+	3	21
-	+	4	0
-	+	2	15
-	+	8	20
-	+	17	3
-	+	4	0
-	+	17	4
-	+	10	0
-	+	6	19
-	+	7	0
-	+	5	17
-	+	16	0
-	+	10	14
-	+	17	17
-	+	10	10
-	+	17	15
-	+	10	17
-	+	14	3
-	+	17	22
-	+	10	26
-	+	11	32
-	+	10	23
-	+	12	54
-	+	13	48
-	+	12	4
-	+	13	25
-	+	14	31
-	+	13	43
-	+	12	37
-	+	14	37
-
-> ~/Documents/School/Harvard/TVI/left_hand/detection.py
-	*	1579024497	0
-	"	10	3
-	^	10	4
-	.	10	3
-	+	9	89
-	+	9	66
-	+	35	29
-	+	13	74
-	+	12	4
-	+	13	3
-	+	15	3
-	+	16	3
-	+	17	3
-	+	18	3
-	+	19	3
-	+	20	3
-	+	21	3
-	+	22	3
-	+	23	3
-	+	24	3
-	+	25	3
-	+	27	3
-	+	28	3
-	+	29	3
-	+	30	3
-	+	31	3
-	+	32	3
-	+	34	3
-	+	35	3
-	+	34	16
-	+	28	21
-	+	25	16
-	+	22	21
-	+	21	23
-	+	19	16
-	+	17	16
-	+	12	0
-	+	13	71
-	+	17	41
-	+	21	64
-	+	22	76
-	+	16	28
-	+	36	18
-	+	37	17
-	+	12	27
-	+	9	73
-	+	11	3
-	+	10	3
-
-> ~/Documents/School/Harvard/TVI/left_hand/detect_object.py
-	*	1579019857	0
-	"	89	0
-
-> ~/Documents/School/Harvard/TVI/left_hand/scanner.py
-	*	1579019845	0
-	"	10	0
-
-> ~/Documents/School/Harvard/Research/thompson.py
-	*	1576089030	0
-	"	103	15
-	^	162	34
-	.	154	14
-	+	106	14
-	+	105	15
-	+	106	42
-	+	72	42
-	+	83	89
-	+	110	58
-	+	109	0
-	+	110	53
-	+	111	0
-	+	116	29
-	+	120	0
-	+	54	18
-	+	106	34
-	+	105	52
-	+	105	27
-	+	105	45
-	+	83	40
-	+	81	11
-	+	82	67
-	+	83	58
-	+	83	23
-	+	82	83
-	+	83	41
-	+	82	52
-	+	154	15
-	+	157	39
-	+	105	14
-	+	106	42
-	+	106	33
-	+	105	44
-	+	102	22
-	+	105	24
-	+	102	59
-	+	103	40
-	+	105	0
-	+	111	8
-	+	112	16
-	+	104	8
-	+	104	0
-	+	83	36
-	+	83	46
-	+	105	51
-	+	109	24
-	+	110	43
-	+	109	44
-	+	120	36
-	+	155	16
-	+	120	0
-	+	106	0
-	+	105	0
-	+	83	0
-	+	122	0
-	+	123	25
-	+	153	0
-	+	169	0
-	+	157	4
-	+	162	48
-	+	164	52
-	+	165	0
-	+	166	42
-	+	169	13
+	.	30	8
+	+	68	0
+	+	69	7
+	+	67	29
+	+	50	29
+	+	73	0
+	+	60	53
+	+	72	16
+	+	69	56
+	+	72	33
+	+	70	27
+	+	71	49
+	+	72	19
+	+	79	13
+	+	75	14
+	+	76	7
+	+	63	0
+	+	76	67
+	+	78	8
+	+	76	50
+	+	69	51
+	+	78	30
+	+	79	15
+	+	58	0
+	+	63	0
+	+	61	24
+	+	62	39
+	+	10	37
+	+	46	25
 	+	47	0
-	+	45	14
-	+	169	0
-	+	164	34
-	+	154	17
-	+	155	17
-	+	154	17
-	+	141	63
-	+	141	29
-	+	141	80
-	+	141	0
-	+	164	1
-	+	116	0
-	+	117	36
-	+	154	13
-	+	155	18
-	+	154	15
-	+	38	0
-	+	120	0
-	+	38	0
-	+	149	41
-	+	148	0
+	+	45	18
+	+	47	10
+	+	64	24
+	+	66	0
+	+	65	63
+	+	66	0
+	+	40	0
+	+	41	14
+	+	39	11
+	+	37	0
+	+	37	11
+	+	54	21
+	+	77	21
+	+	78	8
+	+	79	15
+	+	70	9
+	+	71	9
+	+	72	15
+	+	108	0
+	+	107	0
+	+	33	8
+	+	17	17
+	+	3	11
+	+	17	30
+	+	18	28
+	+	18	0
+	+	42	28
+	+	41	21
+	+	57	0
+	+	57	19
+	+	58	0
+	+	57	0
 	+	17	0
-	+	148	37
-	+	119	41
-	+	117	0
-	+	38	0
-	+	148	0
-	+	164	0
-	+	141	48
-	+	141	66
-	+	143	53
-	+	154	15
-	+	95	6
-	+	154	16
-	+	43	17
-	+	168	34
-	+	162	34
-	+	154	14
+	+	18	0
+	+	17	0
+	+	16	0
+	+	11	0
+	+	33	27
+	+	11	29
+	+	13	32
+	+	11	0
+	+	12	0
+	+	14	0
+	+	15	45
+	+	10	37
+	+	60	37
+	+	62	39
+	+	81	1
+	+	81	0
+	+	82	0
+	+	35	44
+	+	34	0
+	+	37	0
+	+	36	39
+	+	20	14
+	+	22	0
+	+	20	25
+	+	20	0
+	+	21	27
+	+	22	23
+	+	23	32
+	+	21	0
+	+	24	0
+	+	27	0
+	+	26	40
+	+	27	38
+	+	28	0
+	+	27	38
+	+	30	8
 
 > ~/.vimrc
-	*	1576039212	0
-	"	13	0
-	^	23	13
-	.	23	12
-	+	1	9
-	+	2	18
-	+	15	42
-	+	14	0
-	+	23	12
-
-> ~/Documents/School/Harvard/Research/demo.py
-	*	1576038824	0
-	"	1	0
-
-> ~/Documents/School/Harvard/Research/UnrealEngine/Engine/Build/BatchFiles/Mac/GenerateProjectFiles.sh
-	*	1574298086	0
-	"	26	0
-
-> ~/Documents/School/Harvard/Research/UnrealEngine/GenerateProjectFiles.sh
-	*	1574298020	0
-	"	10	0
-
-> ~/Documents/Projects/meade_site/personal-site/src/index.html
-	*	1573103282	0
-	"	1	0
-
-> ~/.bash_profile
-	*	1558539905	0
-	"	23	14
-	^	23	16
-	.	23	14
-	+	1	72
+	*	1593370628	0
+	"	16	0
+	^	24	0
+	.	16	0
+	+	1	31
+	+	90	22
+	+	90	0
+	+	28	0
+	+	7	2
+	+	10	0
+	+	8	25
+	+	7	34
 	+	23	14
+	+	16	0
 
-> ~/inputrc
-	*	1558539432	0
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	28
-
-> /.bash_profile
-	*	1558539135	0
+> ~/vimrc
+	*	1593369648	0
 	"	1	0
 
-> /Users/.bash_profile
-	*	1558539124	0
+> ~/notebooks/ameade/ai_for_earth/LICENSE
+	*	1593366684	0
 	"	1	0
+	^	1	41
+	.	1	40
+	+	19	8
+	+	1	40
 
-> ~/Documents/Courses/Udacity/self_drive/Term_3/CapstoneProject-AutoWheels/.git/MERGE_MSG
-	*	1556377359	0
-	"	2	39
-	^	2	40
-	.	2	39
-	+	2	39
-
-> ~/Documents/Courses/Udacity/self_drive/Term_3/CapstoneProject-AutoWheels/ros/src/tl_detector/tl_classifier.py
-	*	1556168710	0
-	"	27	26
-	^	27	27
-	.	20	37
-	+	7	0
-	+	1	10
-	+	26	1
-	+	5	61
-	+	26	1
-	+	8	20
-	+	9	6
-	+	11	19
-	+	12	5
-	+	25	2
-	+	12	32
-	+	11	24
-	+	18	55
-	+	24	26
-	+	23	24
-	+	22	25
-	+	24	27
-	+	21	2
-	+	22	2
-	+	23	2
-	+	24	2
-	+	21	5
-	+	22	5
-	+	23	5
-	+	24	5
-	+	21	25
-	+	22	25
-	+	23	25
-	+	30	0
-	+	27	26
-	+	6	34
-	+	1	10
-	+	2	17
+> ~/notebooks/ameade/ai_for_earth/README.md
+	*	1593364531	0
+	"	1	0
+	.	1	0
 	+	1	0
-	+	3	0
-	+	1	0
-	+	4	0
-	+	2	0
-	+	6	19
-	+	28	27
-	+	18	8
-	+	18	58
-	+	19	26
-	+	19	68
-	+	20	11
-	+	21	3
-	+	20	37
 
-> ~/.vim/ftplugin/python.vim
-	*	1556167461	0
-	"	4	16
-	^	4	17
-	.	4	16
-	+	4	16
-	+	1	12
-	+	3	15
-	+	4	16
+> ~/.bashrc
+	*	1593363646	0
+	"	104	16
 
-> ~/Documents/Courses/Udacity/self_drive/Term_2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp
-	*	1539058046	0
-	"	49	18
-	.	49	18
-	+	49	18
+> ~/bash_aliases
+	*	1593363645	0
+	"	2	44
+	^	2	45
+	.	2	44
+	+	1	36
+	+	2	44
 
-> ~/Documents/Courses/Udacity/self_drive/Term_2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.
-	*	1539057945	0
+> /mnt/blobfuse/esri-naip/v002/md/2017/md_100cm_2017/39079/index.html
+	*	1592668955	0
+	"	72	0
+
+> /mnt/blobfuse/esri-naip/data/v1/index.html
+	*	1592535726	0
 	"	1	0
 
-> ~/Documents/Courses/Udacity/self_drive/Term_2/CarND-Extended-Kalman-Filter-Project/install-mac.sh
-	*	1537643744	0
-	"	11	109
-	^	11	110
-	.	12	0
-	+	11	110
-	+	12	0
+> ~/notebooks/pytorch/custom_directives.py
+	*	1592190705	0
+	"	1	0
